@@ -60,3 +60,15 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+  # Includes Bootstrap
+  gem 'bootstrap', '~> 4.3.1'
+
+  # Include jQuery Rails
+  gem 'jquery-rails'
+
+  # Include Popper_JS
+  gem 'popper_js', '~> 1.14.5'
+
+  # Include tether
+  gem 'rails-assets-tether', source: 'https://rails-assets.org'
