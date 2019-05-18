@@ -72,3 +72,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
   # Include tether
   gem 'rails-assets-tether', source: 'https://rails-assets.org'
+
+  # Included Simple Form
+  gem 'simple_form'
+
+  # Included Devise
+  gem 'devise'
