@@ -1,31 +1,13 @@
 <br />
 <div class="booyah-box col-10 offset-1">
-  <button id="addcourse" type="button" class="btn btn-outline-secondary float-right" data-toggle="modal" data-target="#coursesModal">
-
-
-  <!-- Modal for courses -->
-  <div class="modal fade" id="coursesModal" tabindex="-1" role="dialog" aria-labelledby="coursesModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> 
-          </button>
-          <h4 class="modal-title" id="coursesModalLabel">Add a new course</h4>
-        </div>
-        <%= simple_form_for @course, url: instructor_courses_path do |f| %>
-          <div class="modal-body">
-            <%= f.input :title %>
-            <%= f.input :description %>
-            <%= f.input :cost %>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close
-            </button>
-            <%= f.submit "Add a course", class: 'btn btn-primary' %>
-          </div>
-        <% end %>
-      </div>
-    </div>
-  </div>  
+  <h1>Add a new course</h1>
+  <%= simple_form_for @course, url: instructor_courses_path do |f| %>
+    <%= f.input :title %>
+    <%= f.input :description %>
+    <%= f.input :cost %>
+    <br />
+    <%= f.submit "Create", class: 'btn btn-primary' %>
+    <br />
+  <% end %>
   <br />
 </div>
