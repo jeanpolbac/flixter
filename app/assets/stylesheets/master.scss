@@ -36,7 +36,7 @@ body {
 }
 
 .frosty h2 {
-  font-family: 'Kodchasan', sans-serif;;
+  font-family: 'Kodchasan', sans-serif;
   font-weight: 200;
   text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
 }
@@ -81,4 +81,23 @@ body {
 
 .clr {
   clear: both;
+}
+
+.lesson {
+  background-color: black;
+  margin-top: 10px;
+  height: 130px;
+}
+
+.lesson a b {
+  color: white;
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.section {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
 }
