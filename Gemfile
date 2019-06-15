@@ -81,3 +81,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
   # Include CarrierWave
   gem 'carrierwave', '~> 1.0'
+
+  # Include Figaro
+  gem "figaro"
+
+  # Include Fog
+  gem 'fog-aws'
