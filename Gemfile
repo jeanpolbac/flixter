@@ -90,3 +90,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
   # Include MiniMagick
   gem 'mini_magick'
+
+  # Include CarrierWave AWS
+  gem 'carrierwave-aws'
