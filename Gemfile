@@ -106,3 +106,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
   # Include jQuery UI Rails
   gem 'jquery-ui-rails'
+
+  # Include Font Awesome
+  gem 'font-awesome-rails'
