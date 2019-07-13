@@ -103,3 +103,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
   # Include Ranked Model
   gem 'ranked-model'
+
+  # Include jQuery UI Rails
+  gem 'jquery-ui-rails'
