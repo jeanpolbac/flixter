@@ -16,7 +16,7 @@ class Instructor::CoursesController < ApplicationController
   end
 
   def show
-    
+    @section = Section.new
   end
 
   private
@@ -33,6 +33,6 @@ class Instructor::CoursesController < ApplicationController
   end
 
   def course_params
-    params.require(:course).permit(:title, :description, :cost, :image, :row_order_position)
+    params.require(:course).permit(:title, :description, :cost, :image)
   end
 end
