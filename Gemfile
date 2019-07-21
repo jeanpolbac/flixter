@@ -93,7 +93,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
   gem 'fog-aws'
 
   # Include MiniMagick
-  gem 'mini_magick'
+  gem 'mini_magick', '>= 4.9.4'
 
   # Include CarrierWave AWS
   gem 'carrierwave-aws'
