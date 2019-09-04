@@ -1,24 +1,25 @@
-# README
+# Flixter - Two-Sided Market Place
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A two-sided, video-streaming marketplace platform that features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationship
 
-Things you may want to cover:
 
-* Ruby version
+### Prerequisites
 
-* System dependencies
+Ruby on Rails is required to be installed
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+## Deployment
 
-* How to run the test suite
+Use Git and GitHub for version control. User Heroku for deploying application.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Built With
 
-* Deployment instructions
+* [Ruby on Rails](https://guides.rubyonrails.org/) - The web framework used
 
-* ...
+
+
+## Authors
+
+
+* **Jean-Pol Bacquet** - *Assignment from UCF Web Boot Camp* - [Flixter - Two-Sided Market Place](https://github.com/jeanpolbac/flixter-jp-bacquet)
