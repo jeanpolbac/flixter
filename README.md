@@ -1,6 +1,10 @@
 # Flixter - Two-Sided Market Place
 
+![Image of Flixter](app/assets/images/flixter-preview.png)
 A two-sided, video-streaming marketplace platform that features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationship
+
+Preview:
+https://flixter-jp-bacquet.herokuapp.com
 
 
 ### Prerequisites
